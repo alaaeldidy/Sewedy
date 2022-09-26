@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T16:02:20 EET" name="Default suite" finished-at="2022-09-26T16:03:25 EET" duration-ms="64959">
+    <groups>
+    </groups>
+    <test started-at="2022-09-26T16:02:20 EET" name="Default test" finished-at="2022-09-26T16:03:25 EET" duration-ms="64959">
+      <class name="tests.Languagetest">
+        <test-method is-config="true" signature="useropen(java.lang.String)[pri:0, instance:tests.Languagetest@19e4653c]" started-at="2022-09-26T16:02:20 EET" name="useropen" finished-at="2022-09-26T16:03:13 EET" duration-ms="52722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useropen -->
+        <test-method signature="userchngelangtest()[pri:0, instance:tests.Languagetest@19e4653c]" started-at="2022-09-26T16:03:13 EET" name="userchngelangtest" finished-at="2022-09-26T16:03:24 EET" duration-ms="11519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userchngelangtest -->
+        <test-method is-config="true" signature="usertakescreen(org.testng.ITestResult)[pri:0, instance:tests.Languagetest@19e4653c]" started-at="2022-09-26T16:03:24 EET" name="usertakescreen" finished-at="2022-09-26T16:03:24 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userchngelangtest status=SUCCESS method=Languagetest.userchngelangtest()[pri:0, instance:tests.Languagetest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usertakescreen -->
+        <test-method is-config="true" signature="userclose()[pri:0, instance:tests.Languagetest@19e4653c]" started-at="2022-09-26T16:03:24 EET" name="userclose" finished-at="2022-09-26T16:03:25 EET" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userclose -->
+      </class> <!-- tests.Languagetest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
